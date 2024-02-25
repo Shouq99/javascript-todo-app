@@ -10,20 +10,27 @@
 
 
 <body>
-    <div class="container">
-        <div class="todo-app">
-            <div class="app-title">
-                <h2>Todo app</h2>
-                <i class="fa-solid fa-book-bookmark"></i>
-            </div>
-            <div class="row">
-                <input type="text" id="input-box" placeholder="add your tasks">
-                <button>Add</button>
-            </div>
-            <ul id="list-container">
-            </ul>
-        </div>
+
+<div class="todo-container">
+	<h1>Todo app</h1>
+    <form class="serach">
+    <div class="fieldInput">
+        <input type="text"  class="input-1" id="search-input" placeholder="search todos here"/>
+        <button tpye="submit" class="form-submit">Search</button>
     </div>
-    <script src="index.js"></script>
+    </form>
+    
+ 
+        <div class="fieldInput">
+      <input type="text" class="input-1"  placeholder="enter todo" id="todo-input">
+      <button id="add-btn" class="form-submit">Add Todo</button>
+    </div>
+	<div class="todo-list">
+		
+	</div>
+    <p class="todo-count"></p>
+</div>
+
+<script src="index.js"></script>   
 </body>
 </html>
